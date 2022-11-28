@@ -9,12 +9,12 @@ html,body,#root{
 }
 
 .header{
-  @apply 2xl:px-[150px] xl:px-[100px] lg:px-[50px]  sm:px-[20px] 2xl:py-[45px] lg:py-[30px] sm:py-[20px]
+  @apply p-[20px]  2xl:px-[150px] xl:px-[100px] lg:px-[50px] sm:px-[30px] 2xl:py-[45px] sm:py-[30px]
 
 }
 
 .wrapper{
-  @apply 2xl:px-[150px] xl:px-[100px] lg:px-[50px] md:px-[30px] sm:px-[20px] ml-5
+  @apply 2xl:px-[150px] xl:px-[100px] lg:px-[50px] md:px-[30px] sm:px-[20px] 
 }
 
 
