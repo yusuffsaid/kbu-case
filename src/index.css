@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html,body,#root{
-  @apply h-full text-primart-color 
+  @apply h-full text-primart-color font-semibold
 }
 
 .header{
@@ -14,7 +14,7 @@ html,body,#root{
 }
 
 .wrapper{
-  @apply 2xl:px-[150px] xl:px-[100px] lg:px-[50px] md:px-[30px] sm:px-[20px] 
+  @apply p-[20px] 2xl:px-[150px] xl:px-[100px] lg:px-[50px] md:px-[30px] sm:px-[20px] 
 }
 
 
