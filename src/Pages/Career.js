@@ -1,9 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PageTitle from '../Components/PageTitle'
+import BadgeLayout from "../Components/BadgeCart/BadgeLayout";
+import * as Icon from '../Assets/Svg/Svg'
 import img1 from "../Assets/Img/img1.png"
 import img2 from "../Assets/Img/img2.png"
 import img3 from "../Assets/Img/img3.png"
 const Career = () => {
+    const [badgeProps, setBadgeProps] = useState([
+        {
+          title: "Work from anywhere",
+          text: "A team of experts passionate about product management.",
+          Icon: Icon["Bag"],
+          color: "bg-badge-red",
+        },
+        {
+          title: "Flexible hours",
+          text: "A team of experts passionate about product management",
+          Icon: Icon["Time"],
+          color: "bg-badge-dark ",
+        },
+        {
+          title: "Work and travel",
+          text: "A team of experts passionate about product management",
+          Icon: Icon["Valise"],
+          color: "bg-badge-purple",
+        },
+        {
+          title: "Paid parental leave",
+          text: "A team of experts passionate about product management",
+          Icon: Icon["Baby"],
+          color: "bg-badge-turquoise",
+        },
+        {
+          title: "Yearly bonuses",
+          text: "A team of experts passionate about product management",
+          Icon: Icon["Gift"],
+          color: "bg-badge-pink",
+        },
+        {
+          title: "Smart salary ",
+          text: "A team of experts passionate about product management",
+          Icon: Icon["Dollar"],
+          color: "bg-badge-militarygreen",
+        },
+      ]);
   return (
    <>
    <PageTitle title={"Career & opportunities"} text="We offer an effective combination of broad customer service expertise and deep product knowledge to ensure customer experience"></PageTitle>
@@ -28,6 +68,7 @@ const Career = () => {
            </div>
         </div>
    </div>
+   <BadgeLayout property={badgeProps}/>
    </section>
    </>
   )

@@ -17,9 +17,11 @@ module.exports = {
         "badge-orange":"#FF794D",
         "badge-blue":"#1787FC",
         "badge-purple":"#9B51E0",
-        "badge-purple":"#9B51E0",
         "badge-dark":"#413E65",
         "badge-red":"#F04037",
+        "badge-pink":"#F653A2",
+        "badge-turquoise":"#00BCD4",
+        "badge-militarygreen":"#81B214"
 
 
       }
