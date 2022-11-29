@@ -17,6 +17,9 @@ const Header = () => {
        {
         menuItems.map((menu,i)=> <li key={i}><a href='#'>{menu}</a></li>)
        }
+       <li>
+        <a className='py-2 px-12 bg-active-color text-white rounded-[65px]'>Get</a>
+       </li>
        
       
     </ul>
