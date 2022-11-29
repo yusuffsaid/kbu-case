@@ -17,6 +17,15 @@ html,body,#root{
   @apply p-[20px] 2xl:px-[150px] xl:px-[100px] lg:px-[50px] md:px-[30px] sm:px-[20px] 
 }
 
+.careerdetail-text h6{
+@apply text-[21px] leading-[30px] mb-[20px] mt-[10px]
+}
+.careerdetail-text p{
+@apply text-[17px] leading-[30px] text-opacity-80 font-extralight mb-[20px]
+}
+.careerdetail-text ul{
+@apply list-disc
+}
 
 
 
